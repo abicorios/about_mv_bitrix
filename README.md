@@ -159,3 +159,5 @@ sudo -i
 [https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&LESSON_ID=8811](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&LESSON_ID=8811)
 
 [https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&LESSON_ID=9379](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&LESSON_ID=9379)
+
+[https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=8609&LESSON_PATH=3911.11757.8609](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=8609&LESSON_PATH=3911.11757.8609)
