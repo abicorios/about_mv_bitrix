@@ -35,7 +35,7 @@ mysqldump -u bitrix0 -p --single-transaction --no-data --routines sitemanager > 
 mysqldump -u bitrix0 -p sitemanager --no-create-info --skip-triggers --ignore-table=sitemanager.b_mail_message >> dump.sql
 ```
 
-Если нужно исключить вторую таблицу, например `b_search_content_stem`, то нужно повторить ключ `--ignore-table` ещё раз, то есть получится `mysqldump -u bitrix0 -p sitemanager --no-create-info --skip-triggers --ignore-table=sitemanager.b_mail_message --ignore-table=sitemanager.b_search_content_stem >> medirus.dump.sql`.
+Если нужно исключить вторую таблицу, например `b_search_content_stem`, то нужно повторить ключ `--ignore-table` ещё раз, то есть получится `mysqldump -u bitrix0 -p sitemanager --no-create-info --skip-triggers --ignore-table=sitemanager.b_mail_message --ignore-table=sitemanager.b_search_content_stem >> dump.sql`.
 Дамп может занять продолжительное время, зависит от размера базы. Не рекомендуется использовать ключи для вывода информации в терминал, это только замедлит процесс. Лучше заранее посмотреть размер базы запросом:
 ```
 SELECT
